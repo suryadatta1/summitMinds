@@ -42,7 +42,7 @@ async function loadPrizes() {
     process.exit();
   }
 }
-//    loadPrizes()
+   loadPrizes()
 
 app.use("/prize", nobelPrize);
 
